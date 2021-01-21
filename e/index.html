@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <title>Instalace programů</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>Instalace programů</h1>
+    <div class="flex-container">
+
+      <div>
+        <figure>
+          <a href="../d/index.html">
+            <img class="previous" src="../img/arrow1.png" alt="arrow">
+          </a>
+        </figure>
+      </div>
+
+      <div class="text-align">
+        <p> <strong><a href="../index.html">Hlavní stránka</a> </strong> </p>
+      </div>
+
+      <div>
+        <figure>
+          <a href="../f/index.html">
+            <img class="next" src="../img/arrow.png" alt="arrow">
+          </a>
+        </figure>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <h3>Instalace programu</h3>
+    <p> Program, který si koupíme, dostaneme na CD/DVD disku, nebo si ho stáhneme z Internetu. Po
+      vložení instalačního CD/DVD disku se
+      většinou okamžitě spustí instalační program (díky souboru <em>autorun.inf</em> ), v případě softwaru staženého z
+      Internetu
+      musíme instalační program spustit sami
+      (ve <a href="https://cs.wikipedia.org/wiki/Microsoft_Windows" target="_blank">Windows</a> nejčastěji poklepáním na
+      soubory <em>install.exe</em> <em>či setup.exe</em>). <abbr title="wizzard">Průvodce instalací </abbr> si často
+      vyžádá
+      sériové číslo a souhlas s licenčními podmínkami, zeptá se, kam (do jaké složky na disku) se má program uložit a
+      kam se má umístit zástupce programu, případně žádá další informace. Potom
+      instalační program nahraje všechny soubory, ze kterých se program skládá, na
+      pevný disk počítače, provede nutnou konfiguraci (v <a href="https://cs.wikipedia.org/wiki/Registr_Windows"
+        target="_blank">systémovém registru Windows</a>, konfiguračních souborech) a
+      nakonec
+      vytvoří zástupce programu pro
+      jeho snadné spuštění. K instalaci většiny programů je nutné mít práva správce.</p>
+
+    <figure>
+      <img src="../img/installer.png" alt="installer wizzard">
+    </figure>
+
+
+    <h3>Odinstalace programu</h3>
+    <p>Úplné odebrání programu bývá paradoxně často
+      složitější, zvláště v systémech <a href="https://cs.wikipedia.org/wiki/Microsoft_Windows"
+        target="_blank">Windows</a>. Při instalaci si program nahraje své
+      komponenty do mnoha složek včetně systémových, sdílí některé soubory s
+      jinými programy <abbr title="DLL">dynamické knihovny</abbr>), vytvoří záznamy v tzv. registru,
+      při svém běhu vytváří pomocné soubory. Program, zajišťující odinstalování
+      aplikace, často neví přesně, kde všude jsou programové soubory uložené a
+      všechny je nesmaže. V řadě případů tak dochází k hromadění zbytečných a
+      nepoužívaných souborů. Pro jejich odstranění lze používat některé speciální
+      utility – např. <abbr title="program pro čištění registrů">RegCleaner</abbr>. Při podobných operacích je
+      však nutné postupovat velmi
+      obezřetně, aby nedošlo k odstranění
+      některé důležité součásti systému nebo používaného programu! V linuxových
+      systémech je lépe vyřešeno oddělení systémových a uživatelských souborů,
+      úplné odstranění nepotřebného programu je proto pravděpodobnější. </p>
+
+    <figure>
+      <img src="../img/regcleaner.png" alt="regCleaner">
+    </figure>
+
+
+    <h3>Lokalizace</h3>
+    <p> Lokalizace je překlad programu, v našem případě do češtiny.
+      Většina významných softwarových firem pochází z anglicky mluvících zemí a
+      originály programů tedy existují v angličtině. Dnes je však zcela běžné, že tyto
+      firmy mají místní zastoupení, která zajišťují prodej programů, ale také je před
+      prodejem lokalizují - převedou do češtiny. Lokalizace je drahá a časově náročná činnost, protože se musí přeložit
+      nejen volby nabídek a obsah dialogových
+      oken, ale také nápověda k programu a <abbr title="manuál">návod k programu</abbr>, případně
+      vytvořit dělicí slovník pro české dělení slov a český korektor pravopisu. </p>
+
+    <figure>
+      <img src="../img/localization.jpg" alt="languages">
+    </figure>
+
+    <h3>Platforma a kompatibilita</h3>
+    <p> V souvislosti s určitým typem <abbr title="operačního systému">OS</abbr> i typem procesoru používáme pojem
+      <strong>platforma</strong> - např.
+      <a href="https://www.microsoft.com/cs-cz/windows/get-windows-10" target="_blank">Windows</a>, <a
+        href="https://www.linux.org/" target="_blank">Linux</a>, <a href="https://cs.wikipedia.org/wiki/MacOS"
+        target="_blank">OS X</a>. Používaný
+      program musí být určen pro operační systém, který je na počítači nainstalován; pod jiným systémem většinou
+      nepracuje
+      (např. program určený pro MS
+      Windows nebude pracovat pod Linuxem a naopak). Mnoho programů, zvláště z oblasti svobodného software ( <em>free
+        software</em>), má proto verze určené pro
+      několik operačních systémů – jsou <strong>multiplatformní</strong>. Problémy se spuštěním
+      programu však mohou nastat i na jedné platformě v souvislosti s různými verzemi <abbr
+        title="Opernačních systémů">OS</abbr> i rozdíly mezi 32bitovými a
+      64bitovými systémy (například nový program určený pro MS Windows může spolehlivě fungovat v novějších verzích
+      Windows, ale nemusí pracovat pod starší verzí stejného <abbr title="Opernačního systému">OS</abbr>). Při
+      pořizování
+      programu si proto vždy musíme ověřit, zda je <strong> <abbr title="ve funkční shodě">kompatibilní</abbr></strong>
+      s námi používaným operačním systémem. V nových systémech Windows je
+      v případě problémů možné využít nastavení na kartě <em>Kompatibilita</em>, která je
+      součástí panelu <em>Vlastnosti</em> pro zástupce dané aplikace.
+    </p>
+
+    <figure>
+      <img src="../img/compatibility.png" alt="compatibility">
+    </figure>
+
+    <h3>Verze programů</h3>
+    <p> U počítačových programů je důležitá jeho verze, která se
+      označuje číslem za názvem programu. Nový program může být například
+      označen jako verze 1.0. Některé dodatečně zjištěné dílčí nedostatky nebo bezpečnostní problémy řeší
+      <em>aktualizace
+        programu</em> (dnes nejčastěji přes Internet),
+      <strong>update</strong>. Aktualizace jsou zakázníkům, kteří si zakoupili určitou verzi programu,
+      obvykle poskytovány bezplatně. Pro přehlednost jsou označovány buď datem
+      vydání, nebo symbolickým číselným vyjádřením podverze – např. 1.1 nebo
+      1.23 apod. Povýšení na novou verzi (např. 2.0), <strong>upgrade</strong>, přináší významnější
+      změny ve vývoji programu a v případě komerčního software je třeba vyšší verzi
+      znovu zaplatit. Bývá pravidlem, že nové verze mají nové funkce a lepší ovládání, ale také vyšší nároky na výkon
+      počítače. Před provedením upgrade je tedy
+      nutné zjistit doporučenou (případně minimální) konfiguraci počítače, aby bylo
+      možné program na daném počítači možné vůbec používat. Opačný postup,
+      tedy použití nižší verze programu (např. kvůli nekompatibilitě s instalovaných
+      <abbr title="Opernačních systémů">OS</abbr> nebo nedostatečnou konfigurací počítače), se nazývá
+      <strong>downgrade</strong>.
+    </p>
+
+    <figure>
+      <img src="../img/update_windows_10.png" alt="windows10 update">
+    </figure>
+
+    <h3>Registrace programu</h3>
+    <p>je zaevidování jeho uživatele do databáze výrobce programu. Registrace je nepovinná a přináší
+      většinou několik výhod: </p>
+    <ul>
+      <li> nárok na upgrade programu za sníženou cenu; uživatel se často včas dozví
+        o časově omezených nabídkách výhodného nákupu upgradu nebo dalších programů od stejné firmy </li>
+      <li>někteří výrobci programů posílají svým registrovaným uživatelům materiály.
+        (časopisy, prospekty), kde se dozvíte zkušenosti jiných uživatelů s programem,
+        bývají zde informace o nových verzích programu, případně o vzniklých doplňcích daného programu. </li>
+      <li> u některých programů po registraci vzniká nárok na využití zákaznické linky
+        v případě potíží s programem.</li>
+    </ul>
+
+
+  </main>
+
+
+  <footer>
+    <hr>
+    <p>&copy;Michaela Říčná <a href="https://www.sspu-opava.cz/cs/" target="_blank"> SŠPU Opava</a> 2021 </p>
+  </footer>
+
+</body>
+
+</html>

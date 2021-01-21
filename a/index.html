@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <title>Programové a datové soubory</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+
+    <h1> Programové a datové soubory</h1>
+    <div class="flex-container">
+
+      <div>
+        <figure>
+          <a href="../index.html">
+            <img class="previous" src="../img/arrow1.png" alt="arrow">
+          </a>
+        </figure>
+      </div>
+
+
+      <div class="text-align">
+        <p> <strong><a href="../index.html">Hlavní stránka</a> </strong> </p>
+      </div>
+
+
+      <div>
+        <figure>
+          <a href="../b/index.html">
+            <img class="next" src="../img/arrow.png" alt="arrow">
+          </a>
+        </figure>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <h3> Soubor (<em>file</em>)</h3>
+
+    <p> je množina souvisejících dat uložených na diskové jednotce.
+      Název souboru je obvykle tvořen jménem (ve Windows až 254 znaků) a příponou, která naznačuje <em> typ souboru.
+      </em>
+      K dalším vlastnostem souboru patří jeho velikost, <abbr title="vlastník">autor </abbr>, datum vytvoření, datum
+      změny, atributy, přístupová práva apod.
+      K přehlednější práci se soubory slouží systém <strong> <abbr title="directories">adresářů</abbr></strong> či <abbr
+        title=" folders">složek</abbr> </p>
+
+    <figure>
+
+      <img src="../img/files.png" alt="files">
+
+    </figure>
+
+
+    <h3>Adresář</h3>
+
+    <p> Adresáře tvoří na disku typicky hierarchickou strukturu (<em> <abbr title="strom)">tree</abbr></em>
+      základem je tzv. <strong> <abbr title="root">kořenový adresář</abbr></strong> označený symbolem
+      „<strong>/</strong>“ (Unix, <a href="https://www.linux.org/pages/download/" target="_blank">Linux</a>), nebo
+      „<strong>\</strong>“ (<a href="https://www.microsoft.com/cs-cz/windows/get-windows-10"
+        target="_blank">Windows</a>)
+      Každý adresář může obsahovat soubory i <strong> <abbr title="subdirectories">podadresáře.</abbr></strong> </p>
+
+    <figure>
+      <img src="../img/root_directory.png" alt="root directory">
+    </figure>
+
+
+
+    <h3>Cesta (<em>path</em>) </h3>
+
+    <p> vyjadřuje umístění souboru vždy směrem od nejvyššího adresáře: C:\XAMPP\mysql\bin\mysql.exe
+      Pro operace se soubory využíváme někdy <strong> <abbr title="wildcards">zástupné znaky</abbr></strong>:</p>
+
+    <ul>
+      <li> symbol * nahrazuje v názvu libovolný počet znaků (např. *.*) </li>
+      <li> symbol ? nahrazuje jeden libovolný znak (např. s?s.txt) </li>
+    </ul>
+
+    <figure>
+      <img src="../img/path.jpg" alt="path">
+
+    </figure>
+
+
+    <h3>Programové soubory</h3>
+
+    <p> obsahují instrukce, podle nichž procesor ve spolupráci s dalšími hardwarovými komponentami plní konkrétní úlohy.
+      Mohou být uloženy v již zkompilované binární podobě (nejčastěji ve <strong>strojovém kódu</strong> pro danou
+      platformu), nebo ve <strong>zdrojovém kódu</strong>, sahujícím příkazy určitého programovacího jazyka.
+      Mezi programové soubory můžeme zařadit také <strong>skripty</strong>
+      soubory instrukcí v textové podobě, které ke svému spuštění vyžadují speciální program -
+      <strong>interpret.</strong>
+    </p>
+
+    <p> Větší programy jsou tvořeny <strong> <abbr title="runtime libraries">programovými knihovnami</abbr></strong>
+      speciálními soubory s připravenými funkcemi, které programy využívají pro svůj běh.
+      Ve Windows to jsou např. soubory DRV a SYS (obsahující zejména <abbr title="drivery">ovladače</abbr>, ale i
+      systémové funkce) nebo také <strong> <abbr
+          title="dynamic linking library - dynamicky linkované knihovny">DLL</abbr></strong>, které mohou být podle
+      potřeby za běhu (dynamicky) připojeny k jednomu i více programům.
+      Některé soubory s tzv. <strong>spustitelnou příponou</strong> (např. <em>.exe</em> a <em>.com</em> ve Windows, <em>.sh</em> v Linuxu), slouží
+      ke spuštění programu - aktivaci procesu v rámci operačního systému.
+      Za <strong>rezidentní programy</strong> (služby, démony) označujeme ty procesy, které jsou spuštěny automaticky po
+      iniciaci operačního systému (např. <a href="https://cs.wikipedia.org/wiki/Antivirov%C3%BD_program" target="_blank">antivirové programy</a>).</p>
+
+    <figure>
+      <img src="../img/interpreter_compiler.png" alt="interpreter and compiler">
+      <figcaption> Interpret x kompilator</figcaption>
+    </figure>
+
+    <h3>Datové soubory </h3>
+
+    <p> obsahují data různého charakteru (číselné, textové, grafické, zvukové údaje).
+      K jejich zpracování se používají konkrétní programy, a proto jsou často přípony těchto datových souborů <abbr
+        title="propojeny">asociovány</abbr> s určitou aplikací (např. DOCX s programem <a
+        href="https://www.microsoft.com/cs-cz/microsoft-365/word" target="_blank">MS Word</a> , nebo XLSX s programem <a
+        href="https://www.microsoft.com/cs-cz/microsoft-365/excel" target="_blank">MS Excel</a>)</p>
+
+    <figure>
+      <img src="../img/ms_word_excel.jpg" alt="word and excel">
+      <figcaption>&copy; Microsoft</figcaption>
+    </figure>
+
+  </main>
+
+  <footer>
+    <hr>
+    <p>&copy;Michaela Říčná <a href="https://www.sspu-opava.cz/cs/" target="_blank"> SŠPU Opava</a> 2021 </p>
+  </footer>
+
+</body>
+
+</html>
